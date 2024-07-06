@@ -26,7 +26,10 @@ public void valid_endpoints_to_add_a_image_to_existing_pet_or_create_new_pet_if_
 public void valid_pet_data_for_image_and_additional_meta_data_is_available_in_required_format() {
    
     pg2.setAdditionalMetadata("This Pet is so cute Find the image");
-    File image = new File("C:\\Users\\BSR\\OneDrive\\Desktop\\RestTesting\\PetStoreAssignmentL3\\resources\\imageupload.png");
+    String path = System.getProperty("user.dir");
+    System.out.println(path);
+    
+    File image = new File(path+"\\uploadfiles\\imageupload.png");
     pg2.setFile(image);
 }
 

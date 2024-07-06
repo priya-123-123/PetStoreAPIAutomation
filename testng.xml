@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
 	<classes>
-		<class name="C://Users//BSR//OneDrive\Desktop\RestTesting\PetStoreAssignmentL3\src\test\java\testRunner\Runner.java"></class>
+		<class name="testRunner.RunnerTest"></class>
 	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
