@@ -20,7 +20,8 @@ import io.cucumber.testng.TestNGCucumberRunner;
     dryRun = false, tags="@smoke or @sanity or @delete",
     plugin = {
           "json:build/cucumber-reports/cucumber.json",
-          "rerun:build/cucumber-reports/rerun.txt"
+          "rerun:build/cucumber-reports/rerun.txt",
+          "html:build/cucumber-reports/cucmberhtml.html"
     })
 
 public class RunnerTest extends AbstractTestNGCucumberTests {
